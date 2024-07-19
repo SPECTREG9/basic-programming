@@ -9,6 +9,8 @@ console.log (firstName)
 console.log (y)
 console.log (ต้องการกลับบ้าน)
 
+
+
 const a: number = 4564
 const b: number = 4574
 
