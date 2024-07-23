@@ -3,11 +3,12 @@ const firstName: string = 'จิรพัฒน์ ทานนท์' //กำ
 let y: Number = 10 // แทนค่าy=10
 y = 20 //เปลี่ยนค่าตัวแปรyเป็น20
 
-let ต้องการกลับบ้าน: boolean = true // กำหนดค่าคงที่ให้ตัวแปรbooleanคือtrue
+let wantTogoHome: boolean = true // กำหนดค่าคงที่ให้ตัวแปรbooleanคือtrue
 
 console.log (firstName) // บอกเป็นชื่อจริง
 console.log (y) // บอกตัวแปรy
-console.log (ต้องการกลับบ้าน) // บอกตัวแปร
+console.log (
+wantTogoHome) // บอกตัวแปร
 
 
 
