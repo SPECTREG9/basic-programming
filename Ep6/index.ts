@@ -21,6 +21,9 @@ for (let i = 1; i <= 31; i++ ) {
 
 console.log('Total',sum)
 
+
+
+
 let sum: number = 0
 let i: number = 1
 
@@ -31,6 +34,10 @@ while (i <= 31) {
 }
 console.log(sum)
 
+
+
+
+
 let sum: number = 0
 let i: number = 1
 
@@ -39,6 +46,10 @@ do {
     i++
 } while (i <= 31)
 console.log('Total',sum)
+
+
+
+
 
 let count: number = 0
 
@@ -49,6 +60,10 @@ while (true) {
     break
 }
 
+
+
+
+
 let age: number =0
 
 for (let i = 1; i <= 19; i++ ) {
@@ -56,17 +71,28 @@ for (let i = 1; i <= 19; i++ ) {
     console.log("ฉันอายุ",i,"ปี")
 }
 
+
+
+
+
 let i: number =1
 while (i <= 19) {
     console.log("ฉันอายุ",i,"ปี")
     i++
 }
 
+
+
+
 let a: number =1
 do  {
     console.log("ฉันอายุ",a,"ปี")
     a++
 } while (i <= 19)
+
+
+
+
 
 
     let car1: string = 'H'
@@ -83,12 +109,20 @@ cars[2] = 'I'
 console.log(cars[2])
 
 
+
+
+
+
 const carss: string [] = ['H','S','Y','M','T']
 let i: number = 0
 
 for (let i = 0; i < carss.length; i++) {
     console.log(carss[i])
 }
+
+
+
+
 
 const cars: string[]=['Toyota','Honda','Suzuki','Yamaha','Nazda']
 let i: number = 0
@@ -100,6 +134,10 @@ for (let i = 0; i < cars.length; i++) {
    
 }
 
+
+
+
+
 const f: string[]=['สส','สว','นายก','กกต','ปชช']
 
 for (let i = 0; i < f.length; i++) {
@@ -108,6 +146,10 @@ for (let i = 0; i < f.length; i++) {
     }
 
 }
+
+
+
+
 
 let num: number[] = [1,2,3,4,5,6,7,8,9,10]
 
