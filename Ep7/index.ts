@@ -52,3 +52,29 @@ console.log("เอาตัวหน้าออก: ", aniArray)
 aniArray.unshift("เหี้ย")
 console.log("ใส่ตัวหน้า ", aniArray)
 
+
+
+
+const nickname: string = 'แทน,แมน,แซน,แพน'
+const nicknameArray: string[] = nickname.split(',')
+
+nicknameArray.sort()
+console.log("เรียง ก-ฮ: ",nicknameArray)
+
+nicknameArray.reverse()
+console.log("เรียง ฮ-ก: " ,nicknameArray)
+
+
+const me = {
+    firsName: 'จิรพัฒน์',
+    lastName: 'ทานนท์',
+    age: 19,
+    phoneNumber: '0945050212',
+}
+
+// ประวัติส่วนตัว
+
+//ชื่อ: จิรพัฒน์
+//นามสกุล: ทานนท์
+//อายุ 19
+//หมายเลขโทรศัพท๋
