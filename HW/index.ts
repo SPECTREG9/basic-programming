@@ -15,3 +15,21 @@ if (bmi > 30.0) {
 
 console.log(75/(1.76**2))
 console.log(bmi(75,1.76))
+
+
+const me = {
+    firsName: 'Thor',
+    lastName: 'Odinson',
+    age: '1500',
+    currentaddressnumber: '616',
+    Village: '1',
+    road: 'Bifrost',
+    subdistrict:'Yggdrasill',
+    district:'NorseMythology',
+    province:'Asgard',
+    zipcode:'616',
+    telephone: '0999999999',
+    Mobilephone:'0999999999',
+    Email:'ThorOdinson@gmail.com',
+}
+    
