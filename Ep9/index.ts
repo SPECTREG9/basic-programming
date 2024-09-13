@@ -3661,7 +3661,7 @@ loveTeamgoalsDiff: function() {
 },
 teampoints: function() {
         return this.league.standings.filter(function(element,index){
-            return element.points <= 40
+            return element.points < 40
         })
 },
 minusGoalsDiff: function() {
