@@ -48,7 +48,61 @@ do {
 console.log('Total',sum)
 
 
+let sum: number = 0
+let i: number = 1
 
+while (i <= 31) {
+    sum = sum + i
+    i++
+} 
+
+console.log(sum) // while loop
+
+
+
+let sum: number = 0
+let i: number = 1
+
+do {
+    sum = sum + i
+    i++
+} while (i <= 31) 
+
+console.log(sum) // do while loop
+
+
+
+let age: number = 0
+
+for (let i = 1; i <= 20; i++) {
+    console.log('ฉันอายุ', i, 'ปี')
+}
+
+console.log(age)  // for loop
+
+
+
+let age: number = 0
+let i: number = 1
+
+while (i <= 31) {
+    console.log('ฉันอายุ', i, 'ปี')
+    i++
+} 
+
+console.log(age) // while loop
+
+
+
+let age: number = 0
+let i: number = 1
+
+do {
+    console.log('ฉันอายุ', i, 'ปี')
+    i++
+} while (i <= 20) 
+
+console.log(age) // do while loop 
 
 
 let count: number = 0
