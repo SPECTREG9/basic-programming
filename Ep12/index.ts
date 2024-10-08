@@ -15,3 +15,24 @@ function cTASM(array: number[]){
     })
 }
 
+const names = ["John Doe", "Jane Smith", "Jack Brown"];
+
+function cutNameWithMap(array: string[]) {
+
+return array.map(function(element, index) {
+
+const cutName = element.split(" ") // ['John', 'Doe']
+
+return {
+
+firstName: cutName [0],
+
+lastName: cutName [1]
+
+}
+
+})
+
+}
+
+console.log(cutNameWithMap(names))
